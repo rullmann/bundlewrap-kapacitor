@@ -21,7 +21,7 @@ A pre-configured influxdb is required. Please find the details inside the influx
 
     'metadata': {
         'kapacitor': {
-			      'influxdb_url': 'http://127.0.0.1:8086', # optional
+            'influxdb_url': 'http://127.0.0.1:8086', # optional
             'username': 'telegraf', # optional, username for influxdb
             'password': 'mysupersecretpassword', # required, password for influxdb
             'smtp_from': '', # required, send alerts from this address
